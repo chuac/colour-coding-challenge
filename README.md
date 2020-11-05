@@ -1,24 +1,12 @@
-# colour-coding
+# Colour Coding Challenge for B2Me
 
 ## Project setup
-```
-npm install
-```
+Run `npm install`, `npm run serve`, then access the app locally at `http://localhost:8080/`
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Live demo
+I have also hosted a live demo [here](https://colour-coding.chuac.me/).
 
-### Compiles and minifies for production
-```
-npm run build
-```
+### Description
+Draws a 1280x640 canvas containing 32,768 5px squares, each filled with discrete colours from rgb(8, 8, 8) to rgb(256, 256, 256).
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+There are two randomly generated designs to choose from: "Wave from Randomness" and "Silicon Wafers".

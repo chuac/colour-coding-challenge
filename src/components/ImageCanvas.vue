@@ -8,7 +8,7 @@
 export default {
     name: 'ImageCanvas',
     props: {
-        imageType: String
+        imageType: String // accepting this prop only as a String
     },
     data() {
         return {
